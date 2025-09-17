@@ -1,6 +1,6 @@
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
-let tentativa = 2;
+
 function exibirTextoNaTela(tag, texto) {
    let campo = document.querySelector(tag);
    campo.innerHTML = texto;
@@ -49,6 +49,7 @@ function reiniciarJogo() {
   exibirMensagemInicial();
   document.getElementById('reiniciar').setAttribuite('disabled','true');
   
+
 
 
 }
